@@ -58,15 +58,20 @@ Loja_de_Doces/
 ├── package.json
 ├── vite.config.js
 └── README.md
+
+
 🚀 Como Rodar o Projeto Localmente
+
 1️⃣ Clone o repositório
 bash
 Copiar código
 git clone https://github.com/devwebschloesser/Loja_de_Doces.git
+
 2️⃣ Acesse a pasta do projeto
 bash
 Copiar código
 cd Loja_de_Doces
+
 3️⃣ Instale as dependências
 bash
 Copiar código
@@ -86,7 +91,9 @@ Acesse:
 arduino
 Copiar código
 http://localhost:5173
+
 ✨ Funcionalidades Atuais
+
 ✅ Página principal com apresentação dos produtos
 
 ✅ Layout totalmente responsivo
@@ -98,6 +105,7 @@ http://localhost:5173
 ✅ Navegação simples e intuitiva
 
 🧠 Possíveis Melhorias
+
 Algumas funcionalidades possíveis de adicionar futuramente:
 
 🔲 Integração com backend (API REST)
@@ -123,9 +131,7 @@ Realize seus commits
 
 Abra um Pull Request
 
-📄 Licença
-Este projeto está licenciado sob a MIT License.
-Veja o arquivo LICENSE para mais detalhes.
+
 
 👨‍💻 Autor
 Leonardo Schloesser Pinheiro (Léo)
