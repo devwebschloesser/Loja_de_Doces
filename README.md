@@ -64,32 +64,32 @@ Loja_de_Doces/
 
 1️⃣ Clone o repositório
 bash
-Copiar código
+
 git clone https://github.com/devwebschloesser/Loja_de_Doces.git
 
 2️⃣ Acesse a pasta do projeto
 bash
-Copiar código
+
 cd Loja_de_Doces
 
 3️⃣ Instale as dependências
 bash
-Copiar código
+
 npm install
 ou
 
 bash
-Copiar código
+
 yarn
 4️⃣ Inicie o servidor de desenvolvimento
 bash
-Copiar código
+
 npm run dev
 5️⃣ Abra no navegador
 Acesse:
 
 arduino
-Copiar código
+
 http://localhost:5173
 
 ✨ Funcionalidades Atuais
