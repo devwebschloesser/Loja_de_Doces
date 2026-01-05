@@ -9,7 +9,7 @@
 Site comercial moderno e responsivo para uma **Loja de Doces**, desenvolvido com **React + Vite**, focado em visual atrativo, usabilidade e experiência intuitiva do usuário.
 
 🔗 **Repositório:** https://github.com/devwebschloesser/Loja_de_Doces  
-🚀 **Deploy:** *(adicione aqui quando publicar no Vercel ou Netlify)*
+🚀 **Deploy:** *https://belissima-joias.vercel.app/*
 
 ---
 
