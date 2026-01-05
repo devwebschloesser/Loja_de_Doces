@@ -1,12 +1,11 @@
-
 🍬 Loja de Doces
 
+````
 Site comercial moderno e responsivo para uma loja de doces, criado com React.
 Permite mostrar um cardápio de produtos e oferece integração com WhatsApp para contato ou pedido diretamente pelo cliente. 
 GitHub
 
-
-🔗 Live demo (https://loja-de-doces-zeta.vercel.app/).
+🔗 Live demo (se existir deploy): adicione aqui a URL de deploy, se houver.
 
 📌 Sobre
 
@@ -23,12 +22,11 @@ Estrutura pronta para consumir APIs de produtos e pedidos
 Este projeto serve como um site comercial funcional para divulgar produtos de uma loja de doces ou lanches. 
 GitHub
 
-
 🧰 Tecnologias
 
 O projeto foi construído com as seguintes tecnologias:
 
-Tecnologia	Função: 
+Tecnologia	Função
 React	Biblioteca para construção da interface de usuário
 Vite	Bundler rápido para desenvolvimento e build
 JavaScript	Linguagem principal do frontend
@@ -39,6 +37,19 @@ Git / GitHub	Controle de versão
 
 Essas tecnologias permitem que o site seja leve, responsivo e fácil de manter.
 
+📁 Estrutura do Projeto
+Loja_de_Doces/
+├── public/              # Arquivos estáticos
+├── src/                 # Código-fonte React
+│   ├── components/      # Componentes reutilizáveis
+│   ├── pages/           # Páginas do app
+│   ├── assets/          # Imagens e ícones
+│   └── styles/          # CSS e estilos
+├── .gitignore
+├── index.html
+├── package.json         # Configuração de dependências
+├── vite.config.js       # Configuração do Vite
+└── README.md            # Este arquivo
 
 🚀 Como usar (Desenvolvimento)
 
@@ -60,7 +71,6 @@ npm install
 ou com yarn:
 
 yarn
-
 
 4. Inicie a aplicação
 npm run dev
@@ -106,20 +116,22 @@ Quer contribuir com melhorias?
 
 Faça um fork do projeto
 
-
 Crie uma branch feature (git checkout -b feature/nome)
 
 Commit suas mudanças (git commit -m "feat: descrição")
-
 
 Abra um Pull Request
 
 Contribuições são sempre bem-vindas!
 
+📄 Licença
+
+Este projeto está licenciado sob a MIT License — consulte o arquivo LICENSE para mais detalhes.
 
 🧑‍💻 Autor
 
 👤 Leonardo Schloesser Pinheiro (Léo)
+📍 Florianópolis – SC
 📧 leonardo.schlo@hgmail.com
 
 🔗 GitHub: https://github.com/devwebschloesser
