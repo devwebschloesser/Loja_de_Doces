@@ -1,137 +1,137 @@
-🍬 Loja de Doces
+# 🍭 Loja de Doces
 
-````
-Site comercial moderno e responsivo para uma loja de doces, criado com React.
-Permite mostrar um cardápio de produtos e oferece integração com WhatsApp para contato ou pedido diretamente pelo cliente. 
-GitHub
+![React](https://img.shields.io/badge/React-18-blue)
+![Vite](https://img.shields.io/badge/Vite-5-purple)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow)
+![Status](https://img.shields.io/badge/Status-Concluído-green)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-🔗 Live demo (se existir deploy): adicione aqui a URL de deploy, se houver.
+Site comercial moderno e responsivo para uma **Loja de Doces**, desenvolvido com **React + Vite**, focado em visual atrativo, usabilidade e experiência intuitiva do usuário.
 
-📌 Sobre
+🔗 **Repositório:** https://github.com/devwebschloesser/Loja_de_Doces  
+🚀 **Deploy:** *(adicione aqui quando publicar no Vercel ou Netlify)*
 
-A Loja de Doces é uma aplicação web de frontend feita em React com Vite, com foco em:
+---
 
-Interface simples e atraente
+## 📌 Sobre o Projeto
 
-Responsividade para dispositivos móveis
+A **Loja de Doces** é uma aplicação frontend criada para mostrar os produtos de uma loja ou confeitaria de forma profissional, permitindo ao cliente:
 
-Integração com WhatsApp para contato
+- Visualizar os doces disponíveis
+- Entrar em contato direto via WhatsApp
+- Navegar por uma interface simples e elegante
+- Acessar um layout responsivo em todos os dispositivos
 
-Estrutura pronta para consumir APIs de produtos e pedidos
+O projeto foi desenvolvido para ser escalável e pode ser expandido futuramente com backend para pedidos, carrinho e processamento de pagamentos.
 
-Este projeto serve como um site comercial funcional para divulgar produtos de uma loja de doces ou lanches. 
-GitHub
+---
 
-🧰 Tecnologias
+## 🧰 Tecnologias Utilizadas
 
 O projeto foi construído com as seguintes tecnologias:
 
-Tecnologia	Função
-React	Biblioteca para construção da interface de usuário
-Vite	Bundler rápido para desenvolvimento e build
-JavaScript	Linguagem principal do frontend
-HTML / CSS	Marcação e estilos
-React Router	(Se utilizado) Navegação entre páginas
-WhatsApp API/Link	Integração de contato direto
-Git / GitHub	Controle de versão
+| Tecnologia | Descrição |
+|------------|-----------|
+| **React.js**         | Biblioteca de UI para interfaces responsivas |
+| **Vite**             | Ferramenta de build rápida e moderna |
+| **JavaScript (ES6+)**| Linguagem base do frontend |
+| **HTML5**            | Estruturação das páginas |
+| **CSS3**             | Estilização visual da interface |
+| **Git & GitHub**     | Controle de versão |
+| **WhatsApp Link**    | Contato direto para pedidos |
 
-Essas tecnologias permitem que o site seja leve, responsivo e fácil de manter.
+---
 
-📁 Estrutura do Projeto
+## 📁 Estrutura do Projeto
+
+```bash
 Loja_de_Doces/
-├── public/              # Arquivos estáticos
-├── src/                 # Código-fonte React
-│   ├── components/      # Componentes reutilizáveis
-│   ├── pages/           # Páginas do app
-│   ├── assets/          # Imagens e ícones
-│   └── styles/          # CSS e estilos
+├── public/                # Arquivos públicos (HTML, favicon, etc)
+├── src/
+│   ├── assets/            # Imagens e ícones
+│   ├── components/        # Componentes reutilizáveis
+│   ├── pages/             # Páginas da aplicação
+│   ├── styles/            # Estilos CSS
+│   └── main.jsx           # Entrada da aplicação
 ├── .gitignore
 ├── index.html
-├── package.json         # Configuração de dependências
-├── vite.config.js       # Configuração do Vite
-└── README.md            # Este arquivo
-
-🚀 Como usar (Desenvolvimento)
-
-Siga os passos para rodar o projeto localmente:
-
-1. Clone o repositório
+├── package.json
+├── vite.config.js
+└── README.md
+🚀 Como Rodar o Projeto Localmente
+1️⃣ Clone o repositório
+bash
+Copiar código
 git clone https://github.com/devwebschloesser/Loja_de_Doces.git
-
-2. Acesse a pasta
+2️⃣ Acesse a pasta do projeto
+bash
+Copiar código
 cd Loja_de_Doces
-
-3. Instale as dependências
-
-Usando npm:
-
+3️⃣ Instale as dependências
+bash
+Copiar código
 npm install
+ou
 
-
-ou com yarn:
-
+bash
+Copiar código
 yarn
-
-4. Inicie a aplicação
+4️⃣ Inicie o servidor de desenvolvimento
+bash
+Copiar código
 npm run dev
+5️⃣ Abra no navegador
+Acesse:
 
-
-ou:
-
-yarn dev
-
-5. Acesse no navegador
-
-Abra seu navegador em:
-
+arduino
+Copiar código
 http://localhost:5173
+✨ Funcionalidades Atuais
+✅ Página principal com apresentação dos produtos
 
+✅ Layout totalmente responsivo
 
-Você verá a interface da Loja de Doces pronta para uso!
+✅ Botão de contato via WhatsApp
 
-🛠 Scripts Úteis
-Comando	Descrição
-dev	Inicia o servidor de desenvolvimento local
-build	Cria uma versão otimizada para produção
-preview	Pré-visualiza a versão produzida localmente
+✅ Componentes organizados e reutilizáveis
 
-Execute com:
+✅ Navegação simples e intuitiva
 
-npm run build
-# ou
-npm run preview
+🧠 Possíveis Melhorias
+Algumas funcionalidades possíveis de adicionar futuramente:
 
-📦 Variáveis de Ambiente
+🔲 Integração com backend (API REST)
 
-Caso use URLs dinâmicas ou conexão com API externa, você pode configurar um arquivo .env com variáveis como:
+🔲 Carrinho de compras funcional
 
-VITE_API_URL=https://suaapi.com
+🔲 Página de detalhes do produto
 
+🔲 Sistema de pedidos e pagamentos
 
-(Ajuste conforme necessidade do backend / integração de API).
+🔲 Painel administrativo para gerenciamento de produtos
+
+🔲 Animações e transições avançadas
 
 🤝 Como Contribuir
-
-Quer contribuir com melhorias?
+Contribuições são muito bem-vindas! ✨
 
 Faça um fork do projeto
 
-Crie uma branch feature (git checkout -b feature/nome)
+Crie uma branch (feature/nova-feature)
 
-Commit suas mudanças (git commit -m "feat: descrição")
+Realize seus commits
 
 Abra um Pull Request
 
-Contribuições são sempre bem-vindas!
-
 📄 Licença
+Este projeto está licenciado sob a MIT License.
+Veja o arquivo LICENSE para mais detalhes.
 
-Este projeto está licenciado sob a MIT License — consulte o arquivo LICENSE para mais detalhes.
-
-🧑‍💻 Autor
-
-👤 Leonardo Schloesser Pinheiro (Léo)
+👨‍💻 Autor
+Leonardo Schloesser Pinheiro (Léo)
 📍 Florianópolis – SC
 📧 leonardo.schlo@hgmail.com
-
 🔗 GitHub: https://github.com/devwebschloesser
+🔗 LinkedIn: https://www.linkedin.com/in/leonardo-schloesser-0043a81b3/
+
+⭐ Se gostou do projeto, deixe uma estrela no repositório!
